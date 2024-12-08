@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DApp Multi-Screen Experience</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="desktop-view" class="view">
+    <h1>Desktop View: Interactive Map</h1>
+    <div id="map">
+      <button class="item" data-item="Treasure Chest">Find Treasure</button>
+      <button class="item" data-item="Magic Potion">Magic Potion</button>
+    </div>
+  </div>
+
+  <div id="mobile-view" class="view">
+    <h1>Mobile View: Item Details</h1>
+    <div id="item-details">
+      <p>Selected Item: <span id="selected-item">None</span></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
